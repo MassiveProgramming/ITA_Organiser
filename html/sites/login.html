@@ -1,0 +1,49 @@
+<h1>Login</h1>
+
+<form action="/login" method="post">
+
+	<div class="table_row">
+	
+		<div class="table_col">
+			<label for="username">Benutzername:</label>
+		</div>
+		
+		<div class="table_col">
+			<input type="text" id="username" name="username" placeholder="Nutzername" />
+		</div>
+		
+		<div class="table_col_warning" id="username_warning" style="display: none;">
+		
+		</div>
+	
+	</div>
+	
+	<div class="table_row">
+	
+		<div class="table_col">
+			<label for="password">Passwort:</label>
+		</div>
+		
+		<div class="table_col">
+			<input type="password" id="password" name="password" placeholder="Passwort" />
+		</div>
+		
+		<div class="table_col_warning" id="password_warning" style="display: none;">
+		
+		</div>
+	
+	</div>
+	
+	<div class="table_row">
+	
+		<div class="table_col">
+			<label>Eingeloggt bleiben <input type="checkbox" name="remember" /></label>
+		</div>
+		
+		<div class="table_col">
+			<input type="submit" id="submit" value="Login" />
+		</div>
+	
+	</div>
+
+</form>

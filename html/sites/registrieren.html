@@ -1,0 +1,137 @@
+<h1>Registrieren</h1>
+
+<form action="/registrieren" method="post">
+
+	<div class="table_row">
+		
+		<div class="table_col">
+			<label for="firstname">Vorname:</label>
+		</div>
+		
+		<div class="table_col">
+			<input type="text" id="firstname" name="firstname" placeholder="Vorname" />
+		</div>
+		
+		<div class="table_col_warning" id="firstname_warning" style="display: none;">
+			
+		</div>
+		
+	</div>
+	
+	<div class="table_row">
+	
+		<div class="table_col">
+			<label for="lastname">Nachname:</label>
+		</div>
+		
+		<div class="table_col">
+			<input type="text" id="lastname" name="lastname" placeholder="Nachname" />
+		</div>
+		
+		<div class="table_col_warning" id="lastname_warning" style="display: none;">
+			
+		</div>
+		
+	</div>
+	
+	<div class="table_row">
+	
+		<div class="table_col">
+			<label for="username">Nutzername:</label>
+		</div>
+		
+		<div class="table_col">
+			<input type="text" id="username" name="username" placeholder="Nutzername" />
+		</div>
+		
+		<div class="table_col_warning" id="username_warning" style="display: none;">
+			
+		</div>
+		
+	</div>
+	
+	<div class="table_row">
+	
+		<div class="table_col">
+			<label for="password">Passwort:</label>
+		</div>
+		
+		<div class="table_col">
+			<input type="password" id="password" name="password" placeholder="Passwort" />
+		</div>
+		
+		<div class="table_col_warning" id="password_warning" style="display: none;">
+			
+		</div>
+	
+	</div>
+	
+	<div class="table_row">
+	
+		<div class="table_col">
+			<label for="password_check">Passwort wiederholen:</label>
+		</div>
+		
+		<div class="table_col">
+			<input type="password" id="password_check" name="password_check" placeholder="Passwort" />
+		</div>
+		
+		<div class="table_col_warning" id="password_check_warning" style="display: none;">
+			
+		</div>
+	
+	</div>
+	
+	<div class="table_row">
+	
+		<div class="table_col">
+			<label for="email">Email:</label>
+		</div>
+		
+		<div class="table_col">
+			<input type="text" id="email" name="email" placeholder="Email" />
+		</div>
+		
+		<div class="table_col_warning" id="email_warning" style="display: none;">
+			
+		</div>
+		
+	</div>
+	
+	<div class="table_row">
+	
+		<div class="table_col">
+			<label for="klasse">Klasse:</label>
+		</div>
+		
+		<div class="table_col">
+			<select id="klasse" name="klasse">
+				<optgroup label="ITA-AHR">
+					<option value="ITAAE" selected="selected">ITA AE</option>
+					<option value="ITAAM">ITA AM</option>
+					<option value="ITAAO">ITA AO</option>
+				</optgroup>
+				<optgroup label="ITA-FHR">
+					<option value="ITAE1">ITA E1</option>
+					<option value="ITAE2">ITA E2</option>
+					<option value="ITAM1">ITA M1</option>
+					<option value="ITAM2">ITA M2</option>
+					<option value="ITAO">ITA O</option>
+				</optgroup>
+			</select>
+		</div>
+		
+	</div>
+	
+	<div class="table_row">
+	
+		<div class="table_col">
+		</div>
+		
+		<div class="table_col">
+			<input type="submit" id="submit" name="submit" value="Registrieren" />
+		</div>
+		
+	</div>
+
+</form>
